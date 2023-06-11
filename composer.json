@@ -1,0 +1,22 @@
+{
+    "name": "magelearn/module-ProductColorPicker",
+    "description": "Magento2 add colorpicker in product add/edit admin form",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "vijaymrami@gmail.com",
+            "name": "vijay rami"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\ProductColorPicker\\": ""
+        }
+    }
+}
